@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppFrames</string>
+    <string name="hello_world">Hello world!</string><string name="action_settings">Settings</string>
+    <string name="Title">Frame HDLC</string>
+    <string name="control">Control</string>
+    <string name="payload">Payload</string>
+    <string name="frame">Frame</string>
+    <string name="adress">Address</string>
+    <string name="generateFrame">Generar Trama</string>
+    <string name="clean">Limpiar</string>
+    <string-array name="protocol_array">
+        <item>Seleccione</item>
+        <item>Reservado</item>
+        <item>Internet Protocol</item>
+        <item>OSI Network Layer</item>
+        <item>Xerox NS IDP</item>
+        <item>DECnet Phase IV</item>
+        <item>Appletalk</item>
+        <item>Novell IPX</item>
+        <item>Luxcom</item>
+        <item>Sigma Network System</item>
+        <item>Internet Protocol Control Protocol</item>
+        <item>OSI Network Layer Control Protocol</item>
+        <item>Xerox NS IDP Control Protocol</item>
+        <item>DECnet Phase IV Control Protocol</item>
+        <item>Appletalk Control Protocol</item>
+        <item>Novell IPX Control Protocol</item>
+        <item>Link Control Protocol</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+    </string-array>
+    <string name="adressSource">Adress source</string>
+    <string name="adressDestination">Adress destination</string>
+    <string name="App">Hex Frame Generator</string>
+    <string name="author">Keren Mitsue Ramírez Vergara</string>
+    
+
+
+</resources>

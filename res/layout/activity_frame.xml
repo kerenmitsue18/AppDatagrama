@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    tools:context=".Frames" >
+
+        
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Title"
+        android:textSize="35sp"
+        android:gravity= "center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#0064A2" />
+    
+    <EditText
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="@string/adress"
+         android:maxLength="2"
+        android:digits="0123456789ABCDEFabcdef"/>
+   
+    <EditText
+        android:id="@+id/adressSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="@string/adressSource" 
+         android:maxLength="12"
+        android:digits="0123456789ABCDEFabcdef"/>
+    
+    
+    <EditText
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="@string/control" 
+        android:maxLength="2"
+        android:digits="0123456789ABCDEFabcdef"/>
+    
+     <EditText
+        android:id="@+id/payload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="@string/payload" />
+     
+     <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+         
+     
+     <Button 
+	    android:id="@+id/clean"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:backgroundTint="#81D4FA"
+	    android:text="@string/clean" />
+    
+	  <Button 
+	    android:id="@+id/generateFrame"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:backgroundTint="#81D4FA"
+	    android:text="@string/generateFrame" />
+    
+	  <TextView
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:scrollbars="vertical"
+        android:textColor="#0064A2" />
+        
+      
+    
+    
+</LinearLayout>
+
+    
+
+
+    

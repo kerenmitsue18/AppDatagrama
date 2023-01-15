@@ -1,0 +1,52 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+
+	<TextView
+        android:id="@+id/App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/App"
+        android:textSize="35sp"
+         android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#0064A2" />
+	
+     <Button 
+	    android:id="@+id/buttonHDLC"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+    	android:backgroundTint="#81D4FA"
+	    android:text="HDLC" />
+    
+    <Button 
+	    android:id="@+id/buttonPPP"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:backgroundTint="#81D4FA"
+	    android:text="PPP" />
+	
+    <Button 
+	    android:id="@+id/buttonEthernet"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:backgroundTint="#81D4FA"
+	    android:text="Ethernet" />
+    
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/author"
+        android:layout_marginTop="250dp"
+        android:textSize="18sp" />
+</LinearLayout>
