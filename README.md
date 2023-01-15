@@ -1,6 +1,8 @@
-La aplicación abarca tres protocolos de la capa de enlace de datos: 
+La aplicación móvil muestra la construcción de las tramas correspondientes a los tres protocolos de la capa de enlace de datos: 
 - HDLC (High Level Data Link Control)
 - PPP (Point to Point Protocol)
+- Ethernet
 
 
-La aplicación móvil se centra en la construcción de los diferentes protocolos.
+> Versión : Android 6.0
+
